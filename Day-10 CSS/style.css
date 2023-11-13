@@ -1,0 +1,48 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    /* box-sizing: border-box; */
+}
+.grandfather{
+    background-color: rgb(0, 0, 0);
+    background-image: url('https://cdn.pixabay.com/photo/2023/10/04/13/37/lemon-8293725_960_720.jpg');
+    width: 50vw;
+    background-size: cover;
+    height: 58vh;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top: 8%;
+    z-index: 1;
+    position: relative;
+    /* border: 2px solid rgb(179, 25, 25); */
+    
+}
+.father{
+    position: relative;
+    background-image: url('https://cdn.pixabay.com/photo/2023/10/20/20/53/pears-8330221_960_720.jpg');
+    background-size: cover;
+    width: 20vw;
+    height: 25vh;
+    /* border-radius: 50%; */
+    background-color:dimgray;
+    margin: auto;
+    padding: 50px;
+    border: 2px solid white;
+
+}
+.son{
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/23/08/46/flower-8144644_960_720.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: chartreuse;
+    position: absolute;
+    /* top: 72px; */
+    /* left: 160px; */
+    top: 0;
+    left: 0;
+}

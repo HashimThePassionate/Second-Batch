@@ -1,0 +1,38 @@
+h2,h3,h4,h5,h6,p, .blue {
+    /* background-color: yelw; */
+    font-size: 20px;
+    font-family: monospace;
+    text-align: justify;
+    text-decoration-line:overline;
+    text-decoration-color: coral;
+    text-decoration-style:dashed;
+    text-decoration-thickness: 1px;
+    text-decoration: underline dotted orange 5px;
+    text-transform: capitalize;
+    letter-spacing: 4.5px;
+    word-spacing: 20px;
+    line-height: 70px;
+    text-shadow: 4px 0 5px  #74ee15;
+}
+#h1 {
+    text-decoration-line: underline;
+    text-shadow: 2px 4px 5px #74ee15;
+}
+a {
+    color: rgb(255, 46, 46); text-decoration: none; font-weight: 600;
+}
+#hello{
+    color: crimson;
+}
+#h11{
+    color: slateblue;
+}
+.red{
+    color:red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}

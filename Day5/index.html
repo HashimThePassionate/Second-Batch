@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+<!-- <form method="get"> -->
+    <!-- Basic style -->
+    <!-- User Name: <input type="text" name="" id=""><br>
+    pass: <input type="password" name="" id=""><br>
+    <input type="submit" value="Login"> -->
+    <!-- Recommended Style -->
+    <!-- <label for="username"><pre>Please Enter Your Username</pre></label>
+    <input type="text" name="" id="username">
+    <input type="submit" value="Submit">
+</form> -->
+<form action="submit.html" method="get" target="_blank" autocomplete="on">
+    <!-- <fieldset>
+    <legend>User Info</legend>    -->
+    <label for="username"><pre>Please Enter Your Username</pre></label>
+    <input type="text" name="" id="username" value="Usman" readonly>
+    <label for="pass"><pre>Please Enter Your Password</pre></label>
+    <input type="password" name="" id="pass" >
+    <label for="Email"><pre>Please Enter Your Email</pre></label>
+    <input type="email" name="" id="Email" placeholder="example@gmail.com" autofocus><p></p>
+    <label for="python">Python Roadmap</label>
+    <pre>
+        <!--multiple attribute  -->
+        <select name="" id="python" size="1">
+            <option value="corePython">Core Python</option>
+            <option value="DatabaseMySQL">Database MySQL</option>
+            <option value="mySQLPythonAutomation">MySQL Python Automation</option>
+            <option value="advancePython">Advance Python</option>
+            <option value="django" selected >django</option>
+        </select>
+    </pre>
+    <label for="msg"><pre>Please type your feedback here</pre></label>
+    <textarea name="" id="msg" cols="30" rows="5">Thank You For Shopping</textarea>
+    <!-- </fieldset> -->
+    <label for="country"><pre>Select Your Country</pre></label>
+<pre>
+<input list="country">
+<datalist id="country">
+<option value="Pakistan">Pakistan</option>
+<option value="India">India</option>
+<option value="Bangladesh">Bangladesh</option>
+<option value="Poland">Poland</option>
+</datalist>
+</pre>
+<!-- Radio butons -->
+    <input type="radio" name="gender" id="gender" value="male">
+    <label for="gender">Male</label>
+    <input type="radio" name="gender" id="gender" value="female">
+    <label for="gender">female</label>
+    <input type="radio" name="sport" id="gender" value="cricket">
+    <label for="gender">Cricket</label>
+    <input type="radio" name="sport" id="gender" value="football">
+    <label for="gender">Football</label><br><br>
+<!-- Checkboxes  -->
+    <input type="checkbox" name="sport1" id="sport1" value="football">
+    <label for="sport1">Football</label>
+    <input type="checkbox" name="sport2" id="sport2" value="cricket">
+    <label for="sport2">Cricket</label>
+    <input type="checkbox" name="sport3" id="sport3" value="Tennis ball">
+    <label for="sport3">Tennis Ball</label>
+    <input type="checkbox" name="sport4" id="sport4" value="Hockey">
+    <label for="sport4">Hockey</label>
+    <p><input type="button" value="Click Me"></p>
+    <label for="myColor">Select your favorite color:</label>
+    <p><input type="color" id="myColor" name="favcolor"></p>
+    <p><label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday" min="1999-12-30"></p>
+    <p>
+    <label for="birthdaytime">Birthday (date and time):</label>
+    <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+    </p>
+    <input type="image" src="submit.svg" alt="Submit" width="48" height="48"><br><br>
+    <label for="myfile">Select a file:</label>
+    <input type="file" id="myfile" name="myfile" accept=".png,.jpeg,.pdf,.svg">
+    <p><input type="submit" value="Submit">
+    <input type="reset" value="Reset"></p>
+</form>
+</body>
+</html>

@@ -1,0 +1,139 @@
+/* body{
+    background-color: rgb(146, 172, 172);
+    background-image: url('baby.jpg');
+    opacity: 0.5;
+} */
+:root{
+    font-size: px;
+}
+html{
+    font-size: 15px;
+} 
+*{
+    margin: 0;
+    padding: 0;
+} 
+.div{
+    width:100px;
+    height:100px;
+}
+.div1
+{
+    margin: 20px 50px 5px 10px;
+    background-color: blueviolet;
+}
+.div2
+{
+    background-color:brown;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div3
+{   
+    margin: 0 auto;
+ margin-top: auto;
+    margin-bottom: auto; 
+    background-color:chartreuse;
+}
+.div4
+{
+    margin: auto;
+    background-color:darksalmon;
+}
+
+.div5
+{
+    background-color: orange;
+    margin-bottom: 20px;
+}
+.parent{
+    background-color: rgb(228, 245, 239);
+    /* padding: 50px; */
+    margin: 40px;
+    border-top:2px solid green;
+}
+.d{
+    width:500px;
+    height:30px;
+    margin: 0 auto;
+}
+
+.d1{
+ background-color: gray;
+ padding: 20px;
+ /* margin-top:40px; */
+ border-top:2px solid black;
+}
+.d2{
+background-color:pink;
+margin-top: 20px;
+}
+.d3{
+background-color: yellow;
+}
+.d4{
+background-color: green;
+}
+.container{
+    background-color: rgb(255, 243, 175);
+    max-width: 600px;
+    height: auto;
+    /* min-width: 400px; */
+
+}
+.container img{
+    width: 100%;
+}
+.heading{
+
+    background-color: green;
+    color: white;
+    max-width:600px;
+    /* max-width: 400px; */
+}
+.GrandFather{
+    font-size: 1em;
+    /* //32px */
+}
+.Father{
+    font-size: 1em;
+    /* //32px + 16px */
+}
+.Son{
+    font-size: 1.5em;
+    /* // 32px + 16px + 24px */
+    color: white;
+}
+
+
+.Grandfather{
+    font-size: 1rem;
+    /* //32px */
+}
+.father{
+    font-size: 3rem;
+    /* //32px + 16px */
+}
+.son h2{
+    font-size: 2rem;
+    /* // 32px + 16px + 24px */
+    color: white;
+}
+.son p{
+    font-size: 1rem;
+    /* // 32px + 16px + 24px */
+    color: white;
+}
+
+.container1{
+    background-color: slateblue;
+    background-image: url("baby.jpg");
+    /* background-size:cover; */
+    /* background-repeat:repeat-y; */
+    background-image: bottom right;
+    width: 50vw;
+    height: 80vh;
+}
+.container1 h2 {
+    font-size: 9vw;
+}
