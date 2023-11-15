@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 23 - JS</title>
+    <style>
+        .p{
+            color: blue;
+            font-weight:500;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>Heading 2</h2>
+    <p class="p para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit aut assumenda perspiciatis, vel neque 
+    </p>
+    <h2>Heading</h2>
+    <p class="p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit aut assumenda perspiciatis, vel neque </p>
+    <p class="p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit aut assumenda perspiciatis, vel neque </p>
+    <p class="p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit aut assumenda perspiciatis, vel neque </p>
+    <h2>Heading</h2>
+    <h2>
+        <div>
+            <p class="p para">Hey Paragraph </p>
+        </div>
+    </h2>
+    <p class="p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit aut assumenda perspiciatis, vel neque </p>
+    <p class="p para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit aut assumenda perspiciatis, vel neque </p>
+    <p class="p para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit aut assumenda perspiciatis, vel neque </p>
+    <h2>Heading</h2>
+    <div id="container1">
+        <p>Paragraph 1</p>
+        <p class="test">Paragraph 1</p>
+        <p class="test">Paragraph 2</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempore esse earum aperiam impedit quo cumque! Reprehenderit itaque totam cupiditate ut explicabo beatae porro enim nobis, quaerat minus quas accusamus!</p>
+        <p class="test">Paragraph 3</p>
+        <div id="foo:bar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione molestias dicta aliquam temporibus, illo libero? Delectus, dignissimos? Iusto, iure porro alias, aperiam at molestias, amet exercitationem neque vero suscipit modi?</div>
+    </div>
+    <div id="container2">
+        <p>Paragraph 1</p>
+        <p class="test">Paragraph 1</p>
+        <p class="test">Paragraph 2</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempore esse earum aperiam impedit quo cumque! Reprehenderit itaque totam cupiditate ut explicabo beatae porro enim nobis, quaerat minus quas accusamus!</p>
+        <p class="test">Paragraph 3</p>
+        <div id="foo:bar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione molestias dicta aliquam temporibus, illo libero? Delectus, dignissimos? Iusto, iure porro alias, aperiam at molestias, amet exercitationem neque vero suscipit modi?</div>
+    </div>
+    <script>
+        // let selectParagraph = document.getElementsByClassName('p para');
+        // console.log(selectParagraph);
+        // let con = document.getElementById('container');
+        // // console.log(con);
+        // // let test = con.getElementsByClassName("test");
+        // let test1 =  document.getElementsByClassName("test")[1];
+        // console.log(test1);
+        // console.log(test);
+
+        // let selectinsidecontainer = document.getElementById("container").document.getElementById("test");
+
+        // document.getElementById("main").getElementsByClassName("test");
+
+        // console.log(selectinsidecontainer);
+        // let con = document.getElementById('container');
+        // let test = con.querySelector(".test");
+        // console.log(test);
+        // var name = "Muhammad \b Ishaq";
+        // console.log("#foo\bar");
+        // console.log(name);
+        // console.log(  document.querySelector("#foo\\:bar"));
+        console.log(document.querySelectorAll('container1','container2'));
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
