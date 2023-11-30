@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Form controls -->
+    <div class="container">
+        <h2 class="text-center">Form controls</h2>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" name="" id="email" placeholder="example@gmail.com">
+        </div>
+        <div class="mb-3">
+            <label for="textArea" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="textArea" rows="3"></textarea>
+        </div>
+    </div>
+    <br><br>
+    <!-- Set form Input Size height .form-control-lg and .form-control-sm-->
+    <div class="container">
+        <h2 class="text-center">Set Input Size height on Input field</h2>
+        <div class="mb-3">
+            <label for="fname" class="form-label">First Name</label>
+            <input type="text" class="form-control form-control-lg" name="" id="fname" placeholder="David">
+        </div>
+        <div class="mb-3">
+            <label for="lname" class="form-label">Last Name</label>
+            <input type="text" class="form-control form-control-sm" name="" id="lname" placeholder="John">
+        </div>
+    </div>
+    <br><br>
+    <!-- Form text-->
+    <!--Block-level or inline-level form text can be created using .form-text-->
+    <div class="container">
+        <h2 class="text-center">Block-level or inline-level form text can be created using .form-text</h2>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control form-control-lg" name="" id="email" placeholder="example@gmail.com">
+        </div>
+        <div class="mb-3">
+            <label for="pass" class="form-label">Password</label>
+            <input type="password" class="form-control " name="" id="pass" placeholder="Password Here!" aria-describedby="passwordHelpId">
+            <div id="passwordHelpId" class="form-text">
+                Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-auto">
+                <label for="pass" class="form-label">Password</label>
+            </div>
+            <div class="col-auto">
+                <input type="password" class="form-control " name="" id="pass" placeholder="Your Password Here!" aria-describedby="passwordHelpId">
+            </div>
+            <div class="col-auto">
+               <span id="passwordHelpInline" class="form-text">
+                Must be 8-20 characters long.
+               </span>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!-- Disabled -->
+    <!-- Add the disabled boolean attribute on an input to give it a grayed out appearance, remove pointer events, and prevent focusing. -->
+    <div class="container">
+        <h2 class="text-center">Disabled</h2>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" name="" id="email" value="Readonly input here..." disabled>
+        </div>
+        <div class="mb-3">
+            <label for="textArea" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="textArea" rows="3" disabled readonly placeholder="Hi this is a simple message "></textarea>
+        </div>
+    </div>
+    <br><br>
+    <!--File Input -->
+    <div class="container">
+        <h2 class="text-center">File Input</h2>
+        <div class="mb-3">
+            <label for="formfile" class="form-label">Default File Input Example</label>
+            <input type="file" class="form-control" name="" id="formfile">
+        </div>
+        <div class="mb-3">
+            <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+            <input class="form-control" type="file" id="formFileMultiple" multiple>
+        </div>
+        <div class="mb-3">
+            <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+            <input class="form-control" type="file" id="formFileDisabled" disabled>
+        </div>
+        <div class="mb-3">
+            label for="formFileSm" class="form-label">Small file input example</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+        </div>
+        <div>
+            <label for="formFileLg" class="form-label">Large file input example</label>
+            <input class="form-control form-control-lg" id="formFileLg" type="file">
+        </div>
+    </div>
+    <br><br>
+     <!--Color Picker-->
+     <div class="container">
+        <h2 class="text-center">Color Picker</h2>
+        <div class="mb-3">
+            <label for="colorPickerInput" class="form-label">Color Picker</label>
+            <input type="color" class="form-control-color" name="" id="colorPickerInput" value="#fa8072" title="Choose your color">
+        </div>
+    </div>
+    <br><br>
+       <!--Datalists-->
+       <div class="container">
+        <h2 class="text-center">Datalists</h2>
+        <div class="mb-3">
+            <label for="exampleDataList" class="form-label">Datalist example</label>
+            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+            <datalist id="datalistOptions">
+            <option value="San Francisco">
+            <option value="New York">
+            <option value="Seattle">
+            <option value="Los Angeles">
+            <option value="Chicago">
+            </datalist>
+        </div>
+    </div>
+    <br><br>
+    <!-- Select -->
+    <div class="container">
+        <h2 class="text-center">Bootstrap Select</h2>
+        <div class="mb-3">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+    </div>
+    <br><br>
+    <!-- Sizing -->
+    <div class="container">
+        <h2 class="text-center">Select Set Size Height</h2>
+        <div class="mb-3">
+            <select class="form-select form-select-sm" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+        <br>
+        <div class="mb-3">
+            <select class="form-select form-select-lg" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+    </div>
+    <br><br>
+    <!-- Checkbox in Bootstrap -->
+    <div class="container">
+        <h2 class="text-center">Checkbox in Bootstrap</h2>
+        <div class="form-control">
+        <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+            Default checkbox
+        </label>
+        </div>
+        <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+            Checked checkbox
+        </label>
+        </div>
+    </div>
+</div>
+    <br><br>
+     <!-- Radio Box in Bootstrap -->
+     <div class="container">
+        <h2 class="text-center">Radio box in Bootstrap</h2>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Default radio
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Default checked radio
+            </label>
+          </div>
+    </div>
+    <br><br>
+    <!-- Switches -->
+    <div class="container">
+        <h2 class="text-center">Switches in Bootstrap</h2>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+            </div>
+            <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+            </div>
+            <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" disabled>
+            <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+            </div>
+            <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled>
+            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+            </div>
+    </div>
+    <br><br>
+<!-- Inline  -->
+<!-- Group checkboxes or radios on the same horizontal row by adding .form-check-inline to any .form-chec -->
+<div class="container">
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+        <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+      </div>
+</div>
+<!-- Input group -->
+
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/popper.js"></script>
+    <script src="/js/bootstrap.js"></script>
+</body>
+</html>

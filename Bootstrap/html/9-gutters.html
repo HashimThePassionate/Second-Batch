@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+     <!-- In this example, we used the horizontal gutter classes to change the spacing between the bootstrap’s grid columns. -->
+    <!-- 
+    p-1  0.25rem => 0.25*16=4pixels
+    p-2  0.5rem => 0.5*16=8pixels
+    p-3  1rem => 1*16=16pixels
+    p-4  1.5rem => 1.5*16=24pixels
+    p-5  3rem => 3*16=48pixels
+    -->
+    <div class="container text-center abox">
+        <div class="row gx-5 ">
+          <div class="col-6 ">
+           <div class="p-4 border ">Column 1</div>
+          </div>
+          <div class="col-6 ">
+            <div class="p-4 border ">Column 2</div>
+          </div>
+        </div>
+      <div class="row gx-2">
+        <div class="col-4">
+         <div class="p-4 border"> Column 1</div>
+        </div>
+        <div class="col-4">
+          <div class="p-4 border"> Column 2</div>
+        </div>
+        <div class="col-4">
+          <div class="p-4 border"> Column 3</div>
+        </div>
+      </div>
+    </div>
+    <!-- In this example, we use the gutter modifier class which sets both horizontal and vertical gutter. -->
+    <div class="container text-center abox">
+      <div class="row g-3 ">
+        <div class="col-6 ">
+         <div class="p-4 border ">Column 1</div>
+        </div>
+        <div class="col-6 ">
+          <div class="p-4 border ">Column 2</div>
+        </div>
+      <div class="col-4">
+       <div class="p-4 border"> Column 3</div>
+      </div>
+      <div class="col-4">
+        <div class="p-4 border"> Column 4</div>
+      </div>
+      <div class="col-4">
+        <div class="p-4 border"> Column 5</div>
+      </div>
+      <div class="col-6 ">
+        <div class="p-4 border ">Column 6</div>
+       </div>
+       <div class="col-6 ">
+         <div class="p-4 border ">Column 7</div>
+       </div>
+  </div>
+  </div>
+  <!-- Bootstrap 5 Horizontal gutters are used for padding between columns, responsively space, and aligning content to the grid system.
+  Bootstrap 5 Horizontal Gutter Class:
+  gx-*: This class controls the horizontal widths of gutters.
+  Note: (*) is used for numeric numbers like 1,2,3,4,5,6, etc. -->
+  <br><br>
+  <div class="container text-center bg-dark " style="height: 100px;">
+    <div class="row  g-3 ">
+      <div class="col-6 ">
+       <div class="p-4 border text-light">Column 1</div>
+      </div>
+      <div class="col-6 ">
+        <div class="p-4 border text-light">Column 2</div>
+      </div>
+</div>
+</div>
+<br><br>
+<!-- another example of Horizontal gutters. -->
+<div class="container text-center gdiv abox ">
+  <div class="row  gx-5 dcon align-items-center ">
+    <div class="col-3 ">
+     <div class="p-4 cbox">HTML</div>
+    </div>
+    <div class="col-3 ">
+      <div class="p-4 cbox">CSS</div>
+    </div>
+    <div class="col-3 ">
+      <div class="p-4 cbox">BOOTSTRAP</div>
+    </div>
+    <div class="col-3 ">
+      <div class="p-4 cbox">JAVASCRIPT</div>
+    </div>
+</div>
+</div>
+<!-- Vertical gutters: Vertical gutter is used for padding between columns, responsively space, and aligning content to the grid system. -->
+<div class="container text-center gdiv abox ">
+  <div class="gy-5">
+    <div class="col-3">
+     <div class="p-4 ccbox">HTML</div>
+    </div>
+    <div class="col-3 ">
+      <div class="p-4 ccbox">CSS</div>
+    </div>
+    <div class="col-3 ">
+      <div class="p-4 ccbox">BOOTSTRAP</div>
+    </div>
+    <div class="col-3 ">
+      <div class="p-4 ccbox">JAVASCRIPT</div>
+    </div>
+</div>
+</div>
+<br><br>
+ <!-- Bootstrap 5 No gutters remove margin and padding from .row and columns.
+Bootstrap 5 No gutter Class:
+g-0: This class is used to remove the gutter between our columns and row. -->
+  <br><br>
+  <div class="container text-center bg-dark ">
+    <div class="row  g-0 ">
+      <div class="col-6 ">
+       <div class="p-4 border text-light">Column 1</div>
+      </div>
+      <div class="col-6 ">
+        <div class="p-4 border text-light">Column 2</div>
+      </div>
+</div>
+</div>
+<!-- Bootstrap 5 Row columns gutters are used to create responsive space in our grid in the Bootstrap 5 framework.
+Bootstrap 5 Row columns gutter Class:
+row-cols-*: This class is used to set the number of columns that best render your content and layout. -->
+<br><br>
+    <div class="container">
+        <div class="row row-cols-lg-5 row-cols-2  g-lg-3">
+            <div class="col">
+                <div class="p-3 border 
+                    bg-primary text-light">
+                    HTML5
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 border 
+                    bg-secondary text-light">
+                    CSS3
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 border
+                        bg-success text-light">
+                    BOOTSTRAP
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 
+                    border bg-danger text-light">
+                    JAVASCRIPT
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 border 
+                        bg-warning text-light">
+                    TYPESCRIPT
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 border 
+                    bg-info text-light">
+                    REACT JS
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 border 
+                    bg-dark text-light">
+                    NEXT JS
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 border 
+                        bg-light text-black">
+                    NODE JS
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 border 
+                        bg-warning text-light">
+                    PYTHON
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3 border 
+                    bg-danger text-light">
+                    DJANGO
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/popper.js"></script>
+    <script src="/js/bootstrap.js"></script>
+</body>
+</html>
