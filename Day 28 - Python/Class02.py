@@ -1,12 +1,13 @@
 name ="Muhammad Hashim" #Beginner level code
-name : str = "Muhammad hashim" # Professional Code
+name : str  = "Muhammad hashim" # Professional Code
+name : str = "Ahmed Raheem"
 print("In python Everything is Object")
 print("Every Object contain Attributes and Methods")
 print(name)
+print(type(name))
 print(id(name))
-print(dir(name))
+print(dir(name)) 
 print(name.upper())
-print(name.title())
 
 age : int = 24
 print(age)
