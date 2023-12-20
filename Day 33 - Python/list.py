@@ -108,16 +108,26 @@
 # } 
 
 # print(course)
-
-# Example 1
 # def dict_walk(d):
 #     for k, v in d.items():
-#         if type(v) == dict:   # option 1 with “type()”
-#         #if isinstance(v, dict):   # option 2 with “isinstance()”
-#             print(k)   # this line is for printing each nested key 
+#         if type(v) == dict:  
+#             print(k) 
 #             dict_walk(v)
 #         else:
 #             print(k, ': ', v)
-  
+
 # dict_walk(course)
 #https://pythontutor.com/render.html#mode=edit
+
+# w = int(input("Enter Weight "))
+# u = input("k(g) or (L)bs : ")
+# if u.upper() == "K":
+#     c = w / 0.45
+#     print(type(c))
+#     print("Weight in Lbs "+str(c))
+
+
+# name : str = "28.13"
+# young : int = 5
+# print("New age is ",float(name)-young)
+
